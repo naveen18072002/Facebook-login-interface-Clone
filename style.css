@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2F4F7;
+    display: flex;
+}
+#left{
+    width: 50vw;
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+#one{
+    color: #0866FF;
+    font-size: 3.8em;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+#two{
+    color: black;
+    font-size: 1.7em;
+    font-weight: 400;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+#right{
+    width: 50%;
+    padding-left: 100px;
+    font-family: "Lato", sans-serif;
+}
+div{
+    height: 350px;
+    width: 390px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0.5px 0.5px 10px rgb(209, 203, 203);
+    margin-top: 120px;
+}
+#text{
+    width: 350px;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: solid 0.5px rgb(182, 181, 181);
+}
+#password{
+    width: 350px;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+     border-radius: 5px;
+    border: solid 0.5px rgb(182, 181, 181);
+}
+button{
+     width: 350px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+     border-radius: 5px;
+     background-color: #0866FF;
+     border: none;
+     color: white;
+     font-weight: 700;
+     font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+#f-pass{
+    color: #0866FF;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+#f-pass:hover{
+    cursor: pointer;
+}
+hr{
+    opacity: 0.5;
+    margin-top: 15px;
+    width: 350px;
+    margin-left: 20px;
+}
+#new{
+     width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding-left: 5px;
+     border-radius: 5px;
+     background-color: #36A420;
+     border: none;
+     color: white;
+     font-weight: 700;
+     font-size: 15px;
+}
+#last{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+
